@@ -5,7 +5,6 @@ import 'package:tyre_life_app/screens/home_screen.dart';
 
 Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(const MyApp());
 }
 
@@ -22,12 +21,6 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
-      // initialRoute: '/',
-      // routes: {
-      //   '/':(context) =>const HomeScreen(),
-      //   '/takePicture': (context) => TakePictureScreen(camera: camera),
-      //   '/displayPicture': (context) => const DisplayPictureScreen(imagePath: 'imagePath')
-      // },
     );
   }
 }
